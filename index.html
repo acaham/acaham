@@ -7,3 +7,40 @@
 		<!DOCTYPE html>
 <html>
 <head>
+<style>
+    button {
+      font-size: 15px;
+      width: 85px;
+      height: 50px;
+    }
+  </style>
+</head>
+<body>
+  <button id="myButton">Totally science</button>
+  <script>
+    var urlObj = new window.URL(window.location.href);
+    var url = "https://totallyscience.co/";
+    if (url) {
+      var win;
+      document.querySelector('#myButton').onclick = function() {
+        if (win) {
+          win.focus();
+        } else {
+          win = window.open();
+          win.document.body.style.margin = '0';
+          win.document.body.style.height = '100vh';
+          var iframe = win.document.createElement('iframe');
+          iframe.style.border = 'none';
+          iframe.style.width = '100%';
+          iframe.style.height = '100%';
+          iframe.style.margin = '0';
+          iframe.src = url;
+          win.document.body.appendChild(iframe);
+          win.onbeforeunload = function() {
+            win = null;
+          };
+        }
+      }
+    }
+  </script>
+</body>
