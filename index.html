@@ -1,33 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-F65JR1DGSS" type="f976fa52e7121f5c93f222e1-text/javascript"></script>
-    <script type="f976fa52e7121f5c93f222e1-text/javascript">
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', 'G-F65JR1DGSS');
-    </script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="https://ssl.gstatic.com/classroom/favicon.png"/>
-    <title>Classes</title>
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <script src="/index.js" type="f976fa52e7121f5c93f222e1-text/javascript"></script>
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="/favicon.ico" />
+	<meta name="viewport" content="width=device-width" />
+
+	<!-- SEO -->
+	<meta name="theme-color" content="#f49625" />
+	
+	<meta property="og:title" content="Kazwire" />
+	
+	<meta name="description" content="From the gaming classics to the internet, access YouTube, TikTok, and even your favorite games freely and securely." />
+	<meta property="og:description" content="From the gaming classics to the internet, access YouTube, TikTok, and even your favorite games freely and securely." />
+	
+	<meta property="og:image" content="https://kazwire.com/logo.png" />
+
+	<meta name="robots" content="index, follow" />
+	<meta name="revisit-after" content="7 days" />
+	<!-- End of SEO -->
+
+	<link rel="manifest" href="/assets/manifest.json" />
+	<title>Kazwire</title>
+
+	<!-- Stuff for other domains -->
+
+	<!-- End of stuff for other domains -->
+
+	
+		<link href="./_app/immutable/assets/_layout.40b9182c.css" rel="stylesheet">
+	<!-- Ads for main domain -->
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7648886706850999"
+		crossorigin="anonymous"></script>
+	<!-- End of ads for main domain -->
+
+	<!-- UV stuff & service workers -->
+	<script src="/uv/uv.bundle.js" defer></script>
+	<script src="/uv/uv.config.js?3" defer></script>
+	<script src="/sw.js" defer></script>
+	<script src="/register-sw.js" defer></script>
+	<!-- End of UV stuff & service workers -->
+
+	<!-- Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-FLBJ64LGWV"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'G-FLBJ64LGWV');
+
+			// (adsbygoogle = window.adsbygoogle || []).push({});
+	</script>
+	<!-- End of analytics -->
 </head>
-<body>
-    <img onclick="if (!window.__cfRLUnblockHandlers) return false; window.location.reload()" class="github fab fa-github" src="./logo.png" data-cf-modified-f976fa52e7121f5c93f222e1-=""></img>
-    <h1 class="title" id="title">Walrus</h1>
-    <h2 class="subtitle"></h2>
-    <div class="searchbar">
-        <input id="input" placeholder="Search or Enter URL" autofocus>
-        <button id="go" onclick="if (!window.__cfRLUnblockHandlers) return false; go()" data-cf-modified-f976fa52e7121f5c93f222e1-=""><i class="fas fa-search"></i></button>
-        <button id="go" onclick="if (!window.__cfRLUnblockHandlers) return false; toggle_bypass()" data-cf-modified-f976fa52e7121f5c93f222e1-=""><i class="fas fa-user-secret"></i></button>
-    </div>
-    <a class="creator" id="creator"></a>
-    
-<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="f976fa52e7121f5c93f222e1-|49" defer=""></script></body>
+<style>
+	*::-webkit-scrollbar {
+		width: 16px;
+	}
+
+	*::-webkit-scrollbar-track {
+		border-radius: 8px;
+	}
+
+	*::-webkit-scrollbar-thumb {
+		height: 56px;
+		border-radius: 8px;
+		border: 4px solid transparent;
+		background-clip: content-box;
+		background-color: #fff;
+	}
+
+	*::-webkit-scrollbar-thumb:hover {
+		background-color: rgb(200, 200, 200);
+	}
+</style>
+
+<body class="bg-light dark:bg-dark" data-sveltekit-preload-data="hover">
+	<div style="display: contents">
+
+
+
+
+
+
+<nav class="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 mb-10 text-lg text-white bg-secondary shadow-md shadow-black dark:shadow-white "><div class="mt-auto mb-auto flex-col align-items-center"><a href="/"><img id="logo" src="/logo.png" class="h-16 p-3 inline-block" alt="Kazwire Logo">
+			<span class="hidden lg:inline-block text-2xl font-semibold whitespace-nowrap text-white align-middle">Kazwire</span></a></div>
+
+	<button><svg xmlns="http://www.w3.org/2000/svg" id="menu-button" class="h-6 w-6 cursor-pointer md:hidden block" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg></button>
+	</nav>
+<div class="text-white w-full pb-5 text-center">
+	<form id="uv-form" class="flex-center"><input id="uv-address" type="text" class="md:w-[35vw] sm:w-[70vw] h-10 p-6 rounded-lg mt-5 text-black placeholder:text-gray-500" placeholder="Search here..." autocomplete="off" value=""></form></div>
+
+<div class="flex flex-row relative justify-center"><div class="flex h-[calc(90vh-132px)] md:w-[80vw] sm:w-full float-left pl-5 pr-5 pb-5"><div class="flex-grow mb-14 align-center"><div id="search-frame" class="w-full h-full"><div class="flex flex-col items-center justify-center w-full h-full bg-zinc-900 rounded-t-lg"><div><img src="/logo.png" class="h-24 p-3 inline-block" alt="Kazwire Logo">
+							<span class="hidden lg:inline-block text-4xl font-semibold whitespace-nowrap text-white align-middle">Kazwire</span></div></div>
+
+				
+				
+				
+				<iframe id="search-iframe" title="Search" class="hidden w-full h-full rounded-t-lg bg-black"></iframe></div>
+
+			<div class="grid"><div class="w-full relative items-center h-14 leading-[3.5rem] mt-2 rounded-b-lg bg-secondaryLight dark:bg-secondaryDark text-white"><div class="float-right mr-5"><button class="mt-4 h-5 w-5 fill-white"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M32 32C14.3 32 0 46.3 0 64v96c0 17.7 14.3 32 32 32s32-14.3 32-32V96h64c17.7 0 32-14.3 32-32s-14.3-32-32-32H32zM64 352c0-17.7-14.3-32-32-32s-32 14.3-32 32v96c0 17.7 14.3 32 32 32h96c17.7 0 32-14.3 32-32s-14.3-32-32-32H64V352zM320 32c-17.7 0-32 14.3-32 32s14.3 32 32 32h64v64c0 17.7 14.3 32 32 32s32-14.3 32-32V64c0-17.7-14.3-32-32-32H320zM448 352c0-17.7-14.3-32-32-32s-32 14.3-32 32v64H320c-17.7 0-32 14.3-32 32s14.3 32 32 32h96c17.7 0 32-14.3 32-32V352z"></path></svg></button></div>
+					<div class="float-right mr-5"><button class="mt-[1.1rem] h-5 w-5 fill-white"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M344 0H488c13.3 0 24 10.7 24 24V168c0 9.7-5.8 18.5-14.8 22.2s-19.3 1.7-26.2-5.2l-39-39-87 87c-9.4 9.4-24.6 9.4-33.9 0l-32-32c-9.4-9.4-9.4-24.6 0-33.9l87-87L327 41c-6.9-6.9-8.9-17.2-5.2-26.2S334.3 0 344 0zM184 496H40c-13.3 0-24-10.7-24-24V328c0-9.7 5.8-18.5 14.8-22.2s19.3-1.7 26.2 5.2l39 39 87-87c9.4-9.4 24.6-9.4 33.9 0l32 32c9.4 9.4 9.4 24.6 0 33.9l-87 87 39 39c6.9 6.9 8.9 17.2 5.2 26.2s-12.5 14.8-22.2 14.8z"></path></svg></button></div>
+					<div id="title" class="ml-5">Nothing here...</div></div></div></div></div>
+	<div class="w-full max-w-[280px] hidden xl:flex flex-col justify-center items-center gap-y-2 px-3 bg-opacity-50 backdrop-blur-md" align="middle"><div class="Vert w-full h-full"><div id="GoogleAds" align="center" class="w-full h-full"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-7648886706850999" data-ad-slot="8673868840" data-ad-format="vertical" data-full-width-responsive="true"></ins></div></div></div></div>
+
+<footer class="p-4 sm:p-6 bg-secondary mt-10"><div class="md:flex md:justify-between"><div class="mb-6 md:mb-0"><a href="https://kazwire.com/" class="flex items-center mb-2"><img src="/logo.png" class="h-8 mr-3" alt="Kazwire Logo">
+				<span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Kazwire</span></a>
+			<a href="/about-the-developers" class="self-center text-md text-white hover:underline">Made with ❤️ by evan
+			</a></div>
+		<div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3"><div><h2 class="mb-6 text-sm font-semibold uppercase text-white">Resources</h2>
+				<ul class="text-white"><li class="mb-4"><a href="/request" class="hover:underline">Request a Game</a></li>
+					<li class="mb-4"><a href="/discord" class="hover:underline">Get Support</a></li>
+					<li><a href="/faq" class="hover:underline">FAQ</a></li></ul></div>
+			<div><h2 class="mb-6 text-sm font-semibold text-white uppercase">Online Services</h2>
+				<ul class="text-white"><li class="mb-4"><a href="/search" class="hover:underline">Search</a></li>
+					<li class="mb-4"><a href="/games" class="hover:underline">Games</a></li>
+					<li><a href="/apps" class="hover:underline">Apps</a></li></ul></div>
+			<div><h2 class="mb-6 text-sm font-semibold text-white uppercase">Legal</h2>
+				<ul class="text-white"><li class="mb-4"><a href="/legal/privacy-policy" class="hover:underline">Privacy Policy</a></li>
+					<li class="mb-4"><a href="/legal/tos" class="hover:underline">Terms &amp; Conditions</a></li>
+					<li><a href="/legal/dmca" class="hover:underline">DMCA</a></li></ul></div></div></div>
+	<hr class="my-6 border-gray-300 sm:mx-auto lg:my-8">
+	<div class="sm:flex sm:items-center sm:justify-between"><span class="text-sm text-white sm:text-center">© 2023 <a href="https://kazwire.com/" class="hover:underline">Kazwire</a></span>
+		<div class="flex mt-4 space-x-6 sm:justify-center sm:mt-0"><a href="https://discord.gg/FEkFSWRFM9" class="text-white hover:text-primary"><svg class="w-5 h-5" fill="currentColor" viewBox="0 -28.5 256 256" aria-hidden="true"><g><path xmlns="http://www.w3.org/2000/svg" d="M216.856339,16.5966031 C200.285002,8.84328665 182.566144,3.2084988 164.041564,0 C161.766523,4.11318106 159.108624,9.64549908 157.276099,14.0464379 C137.583995,11.0849896 118.072967,11.0849896 98.7430163,14.0464379 C96.9108417,9.64549908 94.1925838,4.11318106 91.8971895,0 C73.3526068,3.2084988 55.6133949,8.86399117 39.0420583,16.6376612 C5.61752293,67.146514 -3.4433191,116.400813 1.08711069,164.955721 C23.2560196,181.510915 44.7403634,191.567697 65.8621325,198.148576 C71.0772151,190.971126 75.7283628,183.341335 79.7352139,175.300261 C72.104019,172.400575 64.7949724,168.822202 57.8887866,164.667963 C59.7209612,163.310589 61.5131304,161.891452 63.2445898,160.431257 C105.36741,180.133187 151.134928,180.133187 192.754523,160.431257 C194.506336,161.891452 196.298154,163.310589 198.110326,164.667963 C191.183787,168.842556 183.854737,172.420929 176.223542,175.320965 C180.230393,183.341335 184.861538,190.991831 190.096624,198.16893 C211.238746,191.588051 232.743023,181.531619 254.911949,164.955721 C260.227747,108.668201 245.831087,59.8662432 216.856339,16.5966031 Z M85.4738752,135.09489 C72.8290281,135.09489 62.4592217,123.290155 62.4592217,108.914901 C62.4592217,94.5396472 72.607595,82.7145587 85.4738752,82.7145587 C98.3405064,82.7145587 108.709962,94.5189427 108.488529,108.914901 C108.508531,123.290155 98.3405064,135.09489 85.4738752,135.09489 Z M170.525237,135.09489 C157.88039,135.09489 147.510584,123.290155 147.510584,108.914901 C147.510584,94.5396472 157.658606,82.7145587 170.525237,82.7145587 C183.391518,82.7145587 193.761324,94.5189427 193.539891,108.914901 C193.539891,123.290155 183.391518,135.09489 170.525237,135.09489 Z" fill-rule="evenodd"></path></g></svg>
+				<span class="sr-only">Discord server</span></a>
+			<a href="https://github.com/whos-evan/kazwire" class="text-white hover:text-primary"><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"></path></svg>
+				<span class="sr-only">GitHub</span></a></div></div></footer>
+
+
+			
+			<script>
+				{
+					__sveltekit_1qawrul = {
+						env: {},
+						base: new URL(".", location).pathname.slice(0, -1),
+						element: document.currentScript.parentElement
+					};
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.48e52730.js"),
+						import("./_app/immutable/entry/app.c9b0e3a1.js")
+					]).then(([kit, app]) => {
+						kit.start(app, __sveltekit_1qawrul.element, {
+							node_ids: [0, 19],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+</body>
+
 </html>
